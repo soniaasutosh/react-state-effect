@@ -3,6 +3,9 @@ import { MyInput } from "./MyInput";
 
 let abc = 10;
 
+
+
+
 const Newr = () => {
   console.log("rendering...");
   const [a, setA] = useState("aa");
@@ -15,6 +18,8 @@ const Newr = () => {
   }, []);
 
   const [b, setB] = useState("bb");
+
+
 
   useEffect(() => {
     console.log("1 function executed...");
